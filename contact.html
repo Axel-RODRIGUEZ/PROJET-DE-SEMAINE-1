@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+
+<html lang="fr">
+    <head>
+        <link href="fansite1.css" rel="stylesheet" type="text/css">
+        <title>League of Legends</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap" rel="stylesheet">
+
+    </head>
+
+    <div class="header">
+                <!-- MENU CLIQUABLE -->
+
+                <div>
+                    <div class="menu">
+                        <a href="fansite1.html"><h3>Actualités</h3></a>
+                        <a href="realisations.html"><h3>Réalisations</h3></a>
+                        <a href="evenements.html"><h3>Evènements</h3></a>
+                        <a href="photosetvideos.html"><h3>Photos et Vidéos</h3></a>
+                        <a href="liensutiles.html"><h3>Liens utiles</h3></a>
+                        <a href="contact.html"><h3>Nous contacter</h3></a>
+        
+                        <!-- LOGO DU SITE -->
+        
+                        <div class="logo">
+                            <img src="images/logo.jpg" alt="Logo">
+                        </div>
+                    </div>
+        
+                </div>
+    </div>
+
+    <body>
+         <!--CONTACT FORMS-->
+        <div class="container">
+            <form action="action_page.php">
+      
+            <label for="country">Genre</label>
+            <select id="country" name="country">
+            <option value="australia">Homme</option> <!--MENU DEROULANT GENRE-->
+            <option value="canada">Femme</option>
+            <option value="usa">Autre</option>
+            </select>
+  
+            <label for="fname">Prénom</label>
+            <input type="text" id="fname" name="firstname" placeholder="..."> <!--PRENOM-->
+      
+            <label for="lname">Nom de famille</label>
+            <input type="text" id="lname" name="lastname" placeholder="..."> <!--NOM-->
+  
+            <label for="fname">Adresse postale</label>
+            <input type="text" id="fname" name="firstname" placeholder="..."> <!--ADRESSE POSTALE-->
+      
+            <label for="subject">Commentaire</label>
+            <textarea id="subject" name="subject" placeholder="..." style="height:200px"></textarea> <!--COMMENTAIRE-->
+        
+            <!--CHECKBOX-->
+          
+            <div class="checkbox-wrapper-46">
+                <input type="checkbox" id="cbx-46" class="inp-cbx" />
+                <label for="cbx-46" class="cbx"
+                ><span>
+                    <svg viewBox="0 0 12 10" height="10px" width="12px">
+                    <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg></span
+                ><span>J'accepte la politique de confidentialité de Bloom Petals.</span>
+                </label>
+            </div>
+    
+  
+        <!--BOUTON SUBMIT-->
+        <div class="Submit">
+            <input type="submit" value="Envoyer">
+        </div>
+        
+        </form>
+      </div>
+</body>
