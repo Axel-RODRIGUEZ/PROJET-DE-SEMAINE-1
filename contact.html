@@ -12,7 +12,7 @@
 
     </head>
 
-    <div class="header">
+    <header>
                 <!-- MENU CLIQUABLE -->
 
                 <div>
@@ -32,16 +32,17 @@
                     </div>
         
                 </div>
-    </div>
+    </header>
 
     <body>
-         <!--CONTACT FORMS-->
+
+                <!--CONTACT FORMS-->
         <div class="container">
             <form action="action_page.php">
       
             <label for="country">Genre</label>
-            <select id="country" name="country">
-            <option value="australia">Homme</option> <!--MENU DEROULANT GENRE-->
+            <select id="country" name="country"> <!--MENU DEROULANT GENRE-->
+            <option value="australia">Homme</option>
             <option value="canada">Femme</option>
             <option value="usa">Autre</option>
             </select>
@@ -58,24 +59,49 @@
             <label for="subject">Commentaire</label>
             <textarea id="subject" name="subject" placeholder="..." style="height:200px"></textarea> <!--COMMENTAIRE-->
         
-            <!--CHECKBOX-->
+                <!--CHECKBOX-->
           
             <div class="checkbox-wrapper-46">
                 <input type="checkbox" id="cbx-46" class="inp-cbx" />
                 <label for="cbx-46" class="cbx"
                 ><span>
-                    <svg viewBox="0 0 12 10" height="10px" width="12px">
+                    <svg viewBox="0 0 12 10" height="10px" width="12psx">
                     <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg></span
                 ><span>J'accepte la politique de confidentialité de Bloom Petals.</span>
                 </label>
             </div>
     
   
-        <!--BOUTON SUBMIT-->
+                <!--BOUTON SUBMIT-->
+
         <div class="Submit">
             <input type="submit" value="Envoyer">
         </div>
         
         </form>
       </div>
-</body>
+    </body>
+
+    <footer>
+
+            <!-- MENU CLIQUABLE -->
+
+        <div>
+            <div class="menu">
+                <a href="fansite1.html"><h3>Actualités</h3></a>
+                <a href="realisations.html"><h3>Réalisations</h3></a>
+                <a href="evenements.html"><h3>Evènements</h3></a>
+                <a href="photosetvideos.html"><h3>Photos et Vidéos</h3></a>
+                <a href="liensutiles.html"><h3>Liens utiles</h3></a>
+                <a href="contact.html"><h3>Nous contacter</h3></a>
+
+            <!-- LOGO DU SITE -->
+
+                <div class="logo">
+                    <img src="images/logo.jpg" alt="Logo">
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</html>

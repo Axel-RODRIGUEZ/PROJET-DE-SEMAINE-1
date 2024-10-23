@@ -1,5 +1,11 @@
 /* --- ACCUEIL --- */
 
+/* Mise en page du header */
+header { 
+  display:block;
+  background-color:black;
+}
+
 /* Mise en page du menu de navigation */
 .menu {
     display:flex;
@@ -29,6 +35,12 @@
     
 }
 
+/* Mise en page de la vidéo de fond */
+#video {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Mise en page du titre de la page */
 .title {
     display:flex;
@@ -41,6 +53,7 @@
     font-style: normal;
 }
 
+/* Résumé de l'accueil */
 .resume {
     color:white;
     display:flex;
@@ -48,6 +61,7 @@
     flex-direction: column;
 }
 
+/* Titre de l'actualité */
 .actus {
     display:flex;
     margin: 20% 0 0 0;
@@ -55,38 +69,137 @@
     padding: 3% 0 3% 0
 
 }
+
+/* Mise en page (en ligne) de la première rangée d'actu */
 .actu1 {
     display:flex;
     justify-content: space-between;
 }
 
+/* Mise en page du margin et padding des actus */
 .actu {
     margin: 0 3% 0 3%;
     padding: 3% 0 3% 0;
 }
 
+/* Grossissement des images si souris dessus */
 .actu img:hover {
     border-style:double;
     border-color:black;
     transform: scale(110%)
 }
 
-.header { 
-    display:block;
-    background-color:black;
+/* Mise en page du footer */
+footer {
+  margin-top: 10%;
+  background-color: black;
 }
-
-
 /* REALISATION */
+
+/* Centrage du texte */
+.reatitle h3, p {
+  display:flex;
+  justify-content: center;
+
+}
 
 /* EVENEMENTS */
 
+/*Mise en page du titre */
+.titleeve {
+  display:flex;
+  text-align: center;
+  flex-direction: column;
+  font-family: "Arima", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 300px;
+  font-style: normal;
+}
+
+/* Mise en page de l'image de l'entête */
+.titleeve img {
+  display: flex;
+  position: relative;
+}
+
+/* Mise en page des tableaux */
+.twozerotwoone h2 {
+  display:flex;
+  margin-left: 13%
+}
 /* PHOTOS ET VIDEOS */
+
+/* Mise en page de la vidéo + texte à côté */
+.photovod {
+  display:flex;
+  flex-flow: nowrap row;
+}
+
+/* Margin des vidéos pour éviter qu'elles se collent */
+.photovod iframe {
+  margin-top: 2%
+}
+
+/* Margin du texte pour pas coller la vidéo */
+.phototxt {
+  margin: 0 0 0 2%;
+}
+
+/* Centrage du titre de la section */
+.phototxt h3 {
+  display:flex;
+  justify-content: center;
+}
+
+/* photovod bis */
+.photovod2 {
+  display:flex;
+  flex-flow: nowrap row-reverse;
+}
+
+/* photovod iframe bis */
+.photovod2 iframe {
+  margin-top: 2%
+}
+
+/* phototxt bis */
+.phototxt2 {
+  margin: 0 0 0 2%
+}
+
+/*phototxt h3 bis */
+.phototxt2 h3 {
+  display:flex;
+  justify-content: center;
+}
 
 /* LIENS UTILES */
 
-/* CONTACT */
+/* Mise en page du nom des liens au dessus des photos */
+.liensut {
+  display:flex;
+  flex-flow: wrap column;
+  justify-content: space-around
+}
 
+/* Mise en page du nom des liens en ligne */
+.lienstxt {
+  display:flex;
+  flex-flow: wrap row;
+  justify-content: space-around
+}
+
+/* Mise en page des photos avec liens */
+.liensimg {
+  display:flex;
+  justify-content:space-around;
+}
+
+/* Rétrécissage des photos */
+.liensut img {
+  width: 150px;
+}
+/* CONTACT */
 /* CONTACT FORMS */
 
 input[type=text], select, textarea {
@@ -120,9 +233,9 @@ input[type=text], select, textarea {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-bottom: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 1%;
   }
 
 
