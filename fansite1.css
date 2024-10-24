@@ -86,9 +86,8 @@ header {
 
 /* Grossissement des images si souris dessus */
 .actu img:hover {
-    border-style:double;
-    border-color:black;
-    transform: scale(110%)
+    transform: scale(110%);
+    filter: brightness(1.4);
 }
 
 /* Mise en page du footer */
@@ -138,6 +137,13 @@ footer {
 .twozerotwoone a {
   margin-left: 28%
 }
+
+/* Grossissement des images si souris dessus */
+.twozerotwoone img:hover {
+  transform: scale(110%);
+  filter: brightness(1.4);
+}
+
 /* PHOTOS ET VIDEOS */
 
 /* Mise en page de la vidéo + texte à côté */
@@ -210,6 +216,13 @@ footer {
 .liensut img {
   width: 150px;
 }
+
+/* Grossissement des images si souris dessus */
+.liensimg img:hover {
+  transform: scale(110%);
+  filter: brightness(1.4)
+}
+
 /* CONTACT */
 /* CONTACT FORMS */
 
