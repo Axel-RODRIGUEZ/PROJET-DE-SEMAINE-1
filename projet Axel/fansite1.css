@@ -15,6 +15,12 @@ header {
     justify-content: space-around;
 }
 
+.menu .home {
+  max-width: 40px;
+  max-height: auto;
+  margin-top:25%
+}
+
 /* Mise en page du logo */
 .logo {
     display:flex;
@@ -41,18 +47,23 @@ header {
 #video {
   max-width: 100vw;
   height: auto;
+  position: absolute;
+  z-index: -1;
+  top:20%;
+  left:0;
 }
 
 /* Mise en page du titre de la page */
 .title {
     display:flex;
     color:white;
-    margin-top: -27%;
+    margin-top: 25%;
     margin-left: 29%;
     font-family: "Arima", system-ui;
     font-optical-sizing: auto;
     font-weight: 300px;
     font-style: normal;
+    z-index: 1;
 }
 
 /* Résumé de l'accueil */
@@ -120,12 +131,18 @@ footer {
   font-optical-sizing: auto;
   font-weight: 300px;
   font-style: normal;
+  margin-bottom: 50vh;
+}
+
+.worldstext {
+  margin-top: 50vh;
 }
 
 /* Mise en page de l'image de l'entête */
 .titleeve img {
-  display: flex;
-  position: relative;
+  position: absolute;
+  z-index: -1;
+  left:2.5%
 }
 
 /* Mise en page des tableaux */
